@@ -1,5 +1,5 @@
 FROM java:8-jre
-MAINTAINER sourabhh
+MAINTAINER amritapuranik
 EXPOSE 8080
 COPY maven /maven/
 CMD java -Dspring.profiles.active="docker" -jar \
